@@ -1,0 +1,72 @@
+.horizontal-wrapper
+    display: flex
+    flex-direction: row
+    transform: rotate(90deg) translateY(-400px)
+    transform-origin: top left
+    width: calc(100vw - 1vw)
+    height: 400px
+
+    // &.parent
+    //     display: flex
+    //     flex-direction: row
+    
+    // &.nested
+    //     display: flex
+    //     flex-direction: row
+    //     // width: 400vw
+    //     transform: rotate(90deg) translateY(-100vh)
+    //     transform-origin: top left
+        
+
+.slide
+    background-color: $white
+    color: $black
+    padding: 1rem 1rem
+    width: 2rem
+    height: calc(400px - calc(1rem * 2))
+
+    a
+        text-decoration: none
+        color: inherit
+
+    &:last-child
+        position: relative
+        top: 0
+        left: 0
+        margin: -5px 0
+        background-color: rgba($black, .75)
+        color: $white
+        width: 175px
+        min-width: 150px
+        height: calc(100% + 5px)
+        font-size: .7rem
+        
+
+        &::before
+            content: ' '
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background-image: url('https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg')
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center center
+            z-index: -1
+
+        div
+            padding: 1rem .5rem
+            align-content: end
+
+        b
+            font-size: .95rem
+
+        a
+            text-decoration: none
+            color: darken($white, 25%)
+            transition: all .25s ease
+
+            &:hover
+                background-color: darken($black, 15%)
+                color: lighten($white, 15%)

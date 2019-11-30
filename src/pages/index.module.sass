@@ -1,0 +1,69 @@
+@import '../assets/sass/01-abstracts/abstracts'
+
+.slide
+    transition: all 1.5s ease
+
+    h4
+        margin: 0
+        font-weight: 600
+    
+    p
+        margin: 0
+    
+    &.content
+        min-width: calc(25vw + 2rem)
+
+        display: flex
+        flex-direction: row
+        align-content: stretch
+        align-items: flex-end
+
+        .inner
+            margin: 3rem 1vw
+
+            // &:first-of-type
+            //     margin-left: 0
+
+            h2
+                margin: 0
+            
+            // h2, p
+            //     max-width: 50%
+        
+        &:hover
+            .inner
+                transform: scale(1.1)
+    
+    .inner
+        transition: all 1.5s ease
+
+.entry
+    cursor: pointer
+
+    &.has_background
+        background-color: $black
+        color: $white
+
+    .inner
+        transform-origin: bottom
+        transform: rotate(270deg)
+
+        margin: calc(400px - 50px - 2rem) 0 0 35px
+        width: 0
+        white-space: nowrap
+        position: relative
+        text-align: left
+
+    h2
+        text-align: left
+
+        span
+            display: inline-block
+            margin-left: 1rem
+            transition: all .425s ease
+
+    &:hover
+        h2
+            span
+                margin-left: 1.5rem
+                transform: scale(1.37)

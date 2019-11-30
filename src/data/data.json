@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "Hod Putt",
+        "description": "Bill Piersol; Killed someone near Procters Grove."
+    },
+    {
+        "id": 2,
+        "name": "Ollie McGee",
+        "description": "Has a husband Fletcher McGee who secretly destroyed her."
+    },
+    {
+        "id": 3,
+        "name": "Fletcher McGee",
+        "description": "Destroyed by Ollie McGee's wife."
+    },
+    {
+        "id": 4,
+        "name": "Robert Fulton Tanner",
+        "description": "Bitten by rat."
+    },
+    {
+        "id": 5,
+        "name": "Cassius Hueffer",
+        "description": "No information available."
+    },
+    {
+        "id": 6,
+        "name": "Serepta Hueffer",
+        "description": "No information available."
+    },
+    {
+        "id": 7,
+        "name": "Amanda Barker",
+        "description": "Husband Henry unknown."
+    },
+    {
+        "id": 8,
+        "name": "Constance Harley",
+        "description": "Mothered sister's children Irene & Mary."
+    },
+    {
+        "id": 9,
+        "name": "Chase Henry",
+        "description": "Drunkard denied burial by priest unknown; Buried close to banker Nicholas and wife Priscilla."
+    },
+    {
+        "id": 10,
+        "name": "Harry Carey Goodhue",
+        "description": "Chase Henry's spiritual brother; Fought against everything."
+    },
+    {
+        "id": 11,
+        "name": "Judge Somers",
+        "description": "Praised by Justice Breese; Chase Henry has marble grave but he has none."
+    },
+    {
+        "id": 12,
+        "name": "Kinsey Keene",
+        "description": "Addresses Thomas Rhodes (bank), Coolbaugh Whedon (newspaper), Rev. Peet (church), A.D. Blood (mayor)."
+    },
+    {
+        "id": 13,
+        "name": "Benjamin Pantier",
+        "description": "Rejected by Mrs. Benjamin Pantier wife; Brother of Reuben."
+    },
+    {
+        "id": 14,
+        "name": "Mrs. Benjamin Pantier",
+        "description": "Mother of Reuben Pantier; Drove away Benjamin Pantier."
+    },
+    {
+        "id": 15,
+        "name": "Reuben Pantier",
+        "description": "Spark fire of life started and influenced by Emily Sparks."
+    }
+]
