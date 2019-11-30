@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Spoon River Anthology`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `A delve into the inter-connectivity of Edgar Lee Masters' "Spoon River Anthology."`,
+    // author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
