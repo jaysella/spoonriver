@@ -1,77 +1,442 @@
 [
-    {
-        "id": 1,
-        "name": "Hod Putt",
-        "description": "Bill Piersol; Killed someone near Procters Grove."
-    },
-    {
-        "id": 2,
-        "name": "Ollie McGee",
-        "description": "Has a husband Fletcher McGee who secretly destroyed her."
-    },
-    {
-        "id": 3,
-        "name": "Fletcher McGee",
-        "description": "Destroyed by Ollie McGee's wife."
-    },
-    {
-        "id": 4,
-        "name": "Robert Fulton Tanner",
-        "description": "Bitten by rat."
-    },
-    {
-        "id": 5,
-        "name": "Cassius Hueffer",
-        "description": "No information available."
-    },
-    {
-        "id": 6,
-        "name": "Serepta Hueffer",
-        "description": "No information available."
-    },
-    {
-        "id": 7,
-        "name": "Amanda Barker",
-        "description": "Husband Henry unknown."
-    },
-    {
-        "id": 8,
-        "name": "Constance Harley",
-        "description": "Mothered sister's children Irene & Mary."
-    },
-    {
-        "id": 9,
-        "name": "Chase Henry",
-        "description": "Drunkard denied burial by priest unknown; Buried close to banker Nicholas and wife Priscilla."
-    },
-    {
-        "id": 10,
-        "name": "Harry Carey Goodhue",
-        "description": "Chase Henry's spiritual brother; Fought against everything."
-    },
-    {
-        "id": 11,
-        "name": "Judge Somers",
-        "description": "Praised by Justice Breese; Chase Henry has marble grave but he has none."
-    },
-    {
-        "id": 12,
-        "name": "Kinsey Keene",
-        "description": "Addresses Thomas Rhodes (bank), Coolbaugh Whedon (newspaper), Rev. Peet (church), A.D. Blood (mayor)."
-    },
-    {
-        "id": 13,
-        "name": "Benjamin Pantier",
-        "description": "Rejected by Mrs. Benjamin Pantier wife; Brother of Reuben."
-    },
-    {
-        "id": 14,
-        "name": "Mrs. Benjamin Pantier",
-        "description": "Mother of Reuben Pantier; Drove away Benjamin Pantier."
-    },
-    {
-        "id": 15,
-        "name": "Reuben Pantier",
-        "description": "Spark fire of life started and influenced by Emily Sparks."
-    }
+  {
+    "id": 1,
+    "name": "Hod Putt",
+    "alt_name": "",
+    "description": "Bill Piersol; Killed someone near Procters Grove.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 2,
+    "name": "Ollie McGee",
+    "alt_name": "",
+    "description": "Has a husband Fletcher McGee who secretly destroyed her.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 3,
+    "name": "Fletcher McGee",
+    "alt_name": "",
+    "description": "Destroyed by Ollie McGee's wife.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 4,
+    "name": "Robert Fulton Tanner",
+    "alt_name": "",
+    "description": "Bitten by rat.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 5,
+    "name": "Cassius Hueffer",
+    "alt_name": "",
+    "description": "No information available.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 6,
+    "name": "Serepta Hueffer",
+    "alt_name": "",
+    "description": "No information available.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 7,
+    "name": "Amanda Barker",
+    "alt_name": "",
+    "description": "Husband Henry unknown.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 8,
+    "name": "Constance Harley",
+    "alt_name": "",
+    "description": "Mothered sister's children Irene & Mary.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 9,
+    "name": "Chase Henry",
+    "alt_name": "",
+    "description": "Drunkard denied burial by priest unknown; Buried close to banker Nicholas and wife Priscilla.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 10,
+    "name": "Harry Carey Goodhue",
+    "alt_name": "",
+    "description": "Chase Henry's spiritual brother; Fought against everything.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 11,
+    "name": "Judge Somers",
+    "alt_name": "",
+    "description": "Praised by Justice Breese; Chase Henry has marble grave but he has none.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 12,
+    "name": "Kinsey Keene",
+    "alt_name": "",
+    "description": "Addresses Thomas Rhodes (bank), Coolbaugh Whedon (newspaper), Rev. Peet (church), A.D. Blood (mayor).",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 13,
+    "name": "Benjamin Pantier",
+    "alt_name": "",
+    "description": "Rejected by Mrs. Benjamin Pantier wife; Brother of Reuben.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 14,
+    "name": "Mrs. Benjamin Pantier",
+    "alt_name": "",
+    "description": "Mother of Reuben Pantier; Drove away Benjamin Pantier.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 15,
+    "name": "Reuben Pantier",
+    "alt_name": "",
+    "description": "Spark fire of life started and influenced by Emily Sparks.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 16,
+    "name": "Emily Sparks",
+    "alt_name": "Esther Sparks",
+    "description": "Did before she knew if she had inspired Reuben Pantier but she left.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 17,
+    "name": "Trainor the Druggist",
+    "alt_name": "Nathan Pantier",
+    "description": "Described Ben, Mrs. Pantier, and Reuben.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 18,
+    "name": "Daisy Fraser",
+    "alt_name": "",
+    "description": "Called out Editor Don, Circuit Judge, Rev. Peet, and Sibley; Brought before Justice Arnett.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 19,
+    "name": "Benjamin Fraser",
+    "alt_name": "",
+    "description": "Son of Benjamin Pantier and Daisy Fraser.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 20,
+    "name": "Minerva Jones",
+    "alt_name": "Minne Staton",
+    "description": "Raped by \"Butch\" Weldy; Doe Myers tried to save her but failed.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 21,
+    "name": "Indignation\" Jones",
+    "alt_name": "Jonas Staton",
+    "description": "Father of Minerva Jones.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 22,
+    "name": "Doe Myers (Dr. David Talbott)",
+    "alt_name": "",
+    "description": "*thinks that Doe Hill did more for the people of the town then him*; Tried to save Minerva Jones; Disgraced by newspapers; Mrs. Myers died.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 23,
+    "name": "Mrs. Meyers",
+    "alt_name": "",
+    "description": "Died from broken heart of Doc Meyers husband.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 24,
+    "name": "Butch\" Weldy",
+    "alt_name": "Charles Beggs",
+    "description": "Hired by son of Old Rhodes; No money from Circuit Judge; Blind as Jack the Fiddler.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 25,
+    "name": "Knowlt Hoheimer",
+    "alt_name": "",
+    "description": "Stole dogs of Curl Trenary; Ran from Justice Arnett.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 26,
+    "name": "Lydia Puckett",
+    "alt_name": "",
+    "description": "Married to Knowlt Hoheimer; Cheated with Lucius Atherton.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 27,
+    "name": "Frank Drummer",
+    "alt_name": "Hummer",
+    "description": "No information available.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 28,
+    "name": "Hare Drummer",
+    "alt_name": "Frank Ehrenhart",
+    "description": "Children go to Aaron Haitfield and Sievers farm Conrad Siever.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 29,
+    "name": "Doc Hill (Dr. Alexander Hull)",
+    "alt_name": "",
+    "description": "Wife and son hate him; Saw Em Stanton.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 30,
+    "name": "Andy the Night-Watch",
+    "alt_name": "Andrew Stevenson",
+    "description": "Saw Doc Hill.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 31,
+    "name": "Sarah Brown",
+    "alt_name": "",
+    "description": "Cheats on unknown huasband with Maurice.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 32,
+    "name": "Percy Bysshe Shelley",
+    "alt_name": "William Cullen Bryant",
+    "description": "Father sent him to University; Roamed fields with Bert Kessler.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 33,
+    "name": "Flossie Cabanis",
+    "alt_name": "Caroline Hull",
+    "description": "Brindle's opera house; Saw Ralph Barrett acting; Condemned by Thomas Rhodes; Argued against by Jefferson Howard.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 34,
+    "name": "Julia Miller",
+    "alt_name": "Margaret George Davidson",
+    "description": "Has 65-year old husband.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 35,
+    "name": "Johnnie Sayre",
+    "alt_name": "George Mitchell Miller",
+    "description": "Addresses Father unknown; Taken to house of widow Morris.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 36,
+    "name": "Charlie French",
+    "alt_name": "Charles Bell",
+    "description": "O'Brien boy snapped toy pistol; \"Bucky\" Estil fired cannon from Captain Harris.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 37,
+    "name": "Zenas Witt",
+    "alt_name": "",
+    "description": "Can't memorize like Frank Drummer; Saw Dr. Weese's ad.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 38,
+    "name": "Theodrore the Poet",
+    "alt_name": "Theodore Dreiser",
+    "description": "No information available.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 39,
+    "name": "The Town Marshall",
+    "alt_name": "John E. Logan",
+    "description": "*Maybe include this an example of a prohibisionist was deacon Taylor so he could have voted him in*; Killed a Swede near Maple Grove; Struck Jack McGuire with cane and was killed by him.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 40,
+    "name": "Jack McGuire",
+    "alt_name": "George Weldy",
+    "description": "Logan town Marshal hit him so he killed him; His Lawyer Kinsey Keene helped out old Thomas Rhodes; Judge was friend of Rhodes.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 41,
+    "name": "Dorcas Gustine",
+    "alt_name": "",
+    "description": "No information available.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 42,
+    "name": "Nicholas Bindle",
+    "alt_name": "Nathan Beadles",
+    "description": "Gave pipe organ to Deacon Rhodes.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 43,
+    "name": "Jacob Goodpasture",
+    "alt_name": "",
+    "description": "Son died at Fort Sumter.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 44,
+    "name": "Harold Arnett",
+    "alt_name": "John Craig",
+    "description": "Heard coughing of John Yarnell; Has wife unknown.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 45,
+    "name": "Margaret Fuller Slack",
+    "alt_name": "",
+    "description": "Photograph from Penniwit; Wooed by John Slack the druggist.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 46,
+    "name": "George Trimble",
+    "alt_name": "",
+    "description": "Taxed by Henry George; Has wife unknown who made him join the church; Interripted in session by Willie Metcalf.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 47,
+    "name": "Dr. Siegfried Iseman",
+    "alt_name": "",
+    "description": "Incarcerated by Federal Judge for fraud.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 48,
+    "name": "Ace\" Shaw",
+    "alt_name": "",
+    "description": "No information available.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 49,
+    "name": "Lois Spears",
+    "alt_name": "",
+    "description": "Born Lois Fluke of Willard Fluke; Wife of Cyrus Spears; Mother of Myrtle and Virgil Spears.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 50,
+    "name": "Justice Arnett",
+    "alt_name": "",
+    "description": "Docket shaken loose by Butch Weldy burning explosion.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 51,
+    "name": "Willard Fluke",
+    "alt_name": "",
+    "description": "Wife is Lois Spears; Cheated with \"Cleopatra.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 52,
+    "name": "Aner Clute",
+    "alt_name": "",
+    "description": "Promise of Marriage from Lucius Atherton.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 53,
+    "name": "Lucius Atherton",
+    "alt_name": "",
+    "description": "Lived at Mayer's restaurant; Someone sings of Beatrice.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 54,
+    "name": "Homer Clapp",
+    "alt_name": "",
+    "description": "Aner Clute refused him kiss; Usurped by Lucius Atherton.",
+    "image_url": "",
+    "relations": ""
+  },
+  {
+    "id": 55,
+    "name": "Deacon Taylor",
+    "alt_name": "",
+    "description": "Stole alcohol from Trainor the Druggist.",
+    "image_url": "",
+    "relations": ""
+  }
 ]
