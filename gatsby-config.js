@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Spoon River Anthology`,
     description: `A delve into the inter-connectivity of Edgar Lee Masters' "Spoon River Anthology."`,
-    // author: `@gatsbyjs`,
+    author: ``,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
