@@ -20,6 +20,11 @@ export default class Header extends Component {
   render() {
     return (
       <header className={styles.header}>
+        <h4>
+          <Link to="/about">
+            About
+          </Link>
+        </h4>
         <StaticQuery
           query={graphql`
             query SiteTitleQuery {

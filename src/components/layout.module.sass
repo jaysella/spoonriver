@@ -91,12 +91,29 @@ p
 
 .header
     display: grid
-    grid-template-columns: 75% auto
+    grid-template-columns: 25% auto 25%
     background-color: $black
     text-align: center
     color: $white
     margin: 0
     padding: 0 2rem .5rem 2rem
+    align-items: center
+
+    h4
+        margin: 0
+        font-family: 'Vollkorn SC', 'Times New Roman', Times, serif
+
+        a
+            border-bottom: 1px solid $white
+            transition: all .5s ease
+
+            &:hover
+                opacity: .6
+
+                &::after
+                    content: '\00a0\00a0\00a0\2192'
+                    top: 0
+                    right: 0
 
     h1
         margin: 0
