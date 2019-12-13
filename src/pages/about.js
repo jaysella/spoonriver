@@ -53,7 +53,7 @@ const SecondPage = () => (
           <h2>
             How was the data sourced?
           </h2>
-          <p>All of the information contained on this site is opinion-based and formulated by the authors; it is not intended to be used for scholarly work. The use of this site constitutes he user's acknowledgement of these limitations.</p>
+          <p>All of the information contained on this site is opinion-based and formulated by the authors; it is not intended to be used for scholarly work. Use of this site constitutes the user's acknowledgement of these limitations.</p>
         </div>
       </div>
     {/* </div> */}

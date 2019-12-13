@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
 
 import Header from "./header"
 import styles from "./layout.module.sass"
@@ -34,8 +33,7 @@ export default class Layout extends Component {
                   <hr />
                   <p>All Rights Reserved.</p>
                   <p>Made with punctiliousness in the Washington, D.C. area.</p>
-                  <p><Link to="/about">About this project...</Link></p>
-                  <p>A <a href="//jaysella.dev" target="_blank" rel="noopener noreferrer">Jay Sella</a> project, built with <a href="https://www.gatsbyjs.org">Gatsby</a>.</p>
+                  <p>A <a href="//jaysella.dev" target="_blank" rel="noopener noreferrer">Jay Sella</a>-built website.</p>
                 </div>
               </footer>
             </div>
