@@ -42,7 +42,7 @@ export default class Layout extends Component {
           </div>
 
           {this.props.hasDrawer === 'true' && (
-            <div className={styles.drawer_open}>
+            <div className={[styles.drawer_open, !!this.props.drawerImageSource.toString() ? styles.has_columns : ''].join(' ')}>
               <div className={styles.left}>
                 <h2>{this.props.drawerTitle}</h2>
                 <p>{this.props.drawerBody}</p>
@@ -57,12 +57,20 @@ export default class Layout extends Component {
                 }
               </div>
               {
-                !!this.props.drawerImageSource && this.props.drawerRelations.toString().length >= 2 && (
+                !!this.props.drawerImageSource.toString() && (
+                  <div className={styles.right}>
+                    <img src={this.props.drawerImageSource.toString()} alt={this.props.drawerAltName ? this.props.drawerAltName.toString() : 'Image'}></img>
+                  </div>
+                )
+              }
+              {/* {
+                console.log(this.props.drawerImageSource.toString()) && 
+                !!this.props.drawerImageSource && this.props.drawerImageSource.toString() && (
                   <div className={styles.right}>
                     <img src={this.props.drawerImageSource} alt={this.props.drawerAltName ? this.props.drawerAltName : 'Image'} />
                   </div>
                 )
-              }
+              } */}
             </div>
           )}
           {this.props.hasDrawer !== 'true' && (
