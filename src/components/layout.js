@@ -57,7 +57,9 @@ export default class Layout extends Component {
               {
                 !!this.props.drawerImageSource.toString() && (
                   <div className={styles.right}>
-                    <img src={this.props.drawerImageSource.toString()} alt={this.props.drawerAltName ? this.props.drawerAltName.toString() : 'Image'}></img>
+                    <a href={this.props.drawerImageSource.toString()} rel="nofollow noreferrer" target="_blank">
+                      <img src={this.props.drawerImageSource.toString()} alt={this.props.drawerAltName ? this.props.drawerAltName.toString() : 'Image'}></img>
+                    </a>
                   </div>
                 )
               }
