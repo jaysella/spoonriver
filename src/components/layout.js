@@ -33,7 +33,7 @@ export default class Layout extends Component {
                   <hr />
                   <p>All Rights Reserved.</p>
                   <p>Made with punctiliousness in the Washington, D.C. area.</p>
-                  <p>A <a href="//jaysella.dev" target="_blank" rel="noopener noreferrer">Jay Sella</a>-built website.</p>
+                  <p>Website built by <a href="//jaysella.dev" target="_blank" rel="noopener noreferrer">Jay Sella</a>.</p>
                 </div>
               </footer>
             </div>

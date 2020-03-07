@@ -24,6 +24,10 @@ export default class Header extends Component {
           <Link to="/about">
             About
           </Link>
+          &nbsp;
+          <Link to="/web">
+            Interactive Web
+          </Link>
         </h4>
         <StaticQuery
           query={graphql`
