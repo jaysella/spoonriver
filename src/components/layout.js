@@ -42,7 +42,7 @@ export default class Layout extends Component {
           {this.props.hasDrawer === 'true' && (
             <div className={[styles.drawer_open, !!this.props.drawerImageSource.toString() ? styles.has_columns : ''].join(' ')}>
               <div className={styles.left}>
-                <h2>{this.props.drawerTitle}</h2>
+                <h2>{this.props.drawerTitle} {this.props.drawerAltName ? (<small>based on {this.props.drawerAltName}</small>) : ''}</h2>
                 <p>{this.props.drawerBody}</p>
                 {
                   !!this.props.drawerRelations && this.props.drawerRelations.toString().length >= 2 && (
