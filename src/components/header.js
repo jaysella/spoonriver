@@ -25,9 +25,9 @@ export default class Header extends Component {
             About
           </Link>
           &nbsp;
-          <Link to="/web">
+          <a href="//spoonriver-web.netlify.com" rel="nofollow noreferrer">
             Interactive Web
-          </Link>
+          </a>
         </h4>
         <StaticQuery
           query={graphql`
