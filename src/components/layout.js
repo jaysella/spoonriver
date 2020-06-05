@@ -34,6 +34,7 @@ export default class Layout extends Component {
                   <p>All Rights Reserved.</p>
                   <p>Made with punctiliousness in the Washington, D.C. area.</p>
                   <p>Website built by <a href="//jaysella.dev" target="_blank" rel="noopener noreferrer">Jay Sella</a>.</p>
+                  <p>Source code + data is open-source. <a href="//github.com/j-651/spoonriver" target="_blank" rel="noopener noreferrer">View our GitHub repository</a>.</p>
                 </div>
               </footer>
             </div>
