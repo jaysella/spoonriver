@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Spoon River Anthology`,
-    description: `A delve into the inter-connectivity of Edgar Lee Masters' "Spoon River Anthology."`,
+    description: `A delve into the inter-connectivity of Edgar Lee Masters' Spoon River Anthology.`,
     author: ``,
   },
   plugins: [
@@ -24,14 +24,14 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `data`,
+        name: `json_data`,
         path: `${__dirname}/src/data/`
       },
     },

@@ -38,8 +38,8 @@ export default class IndexPage extends Component {
         <SEO title="Home" />
         <StaticQuery
           query={graphql`
-            query DataQuery {
-              allDataJson {
+            query CurrentDataQuery {
+              allCurrentDataJson {
                 edges {
                   node {
                     id
@@ -54,8 +54,8 @@ export default class IndexPage extends Component {
             }
           `}
           render={data => (
-            data.allDataJson &&
-              data.allDataJson.edges.map(
+            data.allCurrentDataJson &&
+              data.allCurrentDataJson.edges.map(
                 ({ node }, index) =>
                   (node.name.toLowerCase().includes(this.state.query.toLowerCase()) || node.alt_name.toLowerCase().includes(this.state.query.toLowerCase()) || node.description.toLowerCase().includes(this.state.query.toLowerCase())) && (
                     <div key={index} className={['slide', styles.slide, styles.entry].join(' ')} onClick={this.handleClick.bind(null, node.name, node.alt_name, node.description, node.image_url, node.relations)}>
@@ -97,8 +97,8 @@ export default class IndexPage extends Component {
 //       <SEO title="Home" />
 
 //       {/* <div className="horizontal-wrapper"> */}
-//       {data.allDataJson &&
-//         data.allDataJson.edges.map(
+//       {data.allCurrentDataJson &&
+//         data.allCurrentDataJson.edges.map(
 //           ({ node }, index) =>
 //             (node.name.includes(query) || node.alt_name.includes(query) || node.description.includes(query)) && (
 //               <div key={index} className={['slide', styles.slide, styles.entry].join(' ')} onClick={handleClick.bind(null, node.name, node.alt_name, node.description, node.image_url, node.relations)}>
