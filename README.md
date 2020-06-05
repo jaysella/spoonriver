@@ -9,8 +9,9 @@
 
 This repository houses the source code and data for the *Spoon River Anthology* project. This site provides a graphical interface to view and analyze the anthology's 200+ characters and stories.
 
-Original source code by <a href="https://jaysella.dev" target="_blank">Jay Sella</a>
-Original data + information created + curated by Jay Sella, Oscar Lloyd, and Nick Casertano
+Original source code by <a href="https://jaysella.dev" target="_blank">Jay Sella</a>.
+
+Original data + information created + curated by Jay Sella, Oscar Lloyd, and Nick Casertano.
 
 ## 🚀 Quick start
 
