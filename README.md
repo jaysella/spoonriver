@@ -7,7 +7,9 @@
   Spoon River Anthology
 </h1>
 
-This repository houses the source code and data for the *Spoon River Anthology* project. This site provides a graphical interface to view and analyze the anthology's 200+ characters and stories.
+This repository houses the source code and data for the *Spoon River Anthology* project. This site provides a graphical interface to view and analyze the anthology's 200+ characters and stories. It can be viewed live [here](https://spoonriver.netlify.app).
+
+For the *Spoon River Anthology: Web of Interconnectivity* site, see the [repository](https://github.com/j-651/spoonriver-web) or the [live site](https://spoonriver-web.netlify.app).
 
 Original source code by <a href="https://jaysella.dev" target="_blank">Jay Sella</a>.
 
