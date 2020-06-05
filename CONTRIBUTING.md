@@ -2,22 +2,9 @@
 Hello, and thank you for your interest in contributing to our Spoon River Anthology project! Please take a minute to review our Contribution Guidelines, as this will result in getting your issue resolved or pull request merged faster.
 
 ## Specific Information
-All data for the site is located in the [src/data/currentData.json](src/data/currentData.json) file.
+All data for this site is located in the [src/data/currentData.json](src/data/currentData.json) file.
 
-The format for all data entries is:
-
-```json
-{
-    "id": [integer],
-    "name": [string],
-    "relations": [string],
-    "alt_name": [string],
-    "description": [string],
-    "image_url": [string -> url]
-}
-```
-
-Here's a fully functional example:
+The format for data entries is:
 
 ```json
 {
@@ -29,6 +16,14 @@ Here's a fully functional example:
     "image_url": "https://images.findagrave.com/photos/2012/197/41293641_134246596028.jpg"
 }
 ```
+
+|Key|Purpose||
+|---|---|---|
+|id|Sequential, unique integer index|Required|
+|name|Declares the character's name|Required|
+|alt_name|The real-life person on who the character is based|Optional|
+|description|Description on who the character is, who he's connected to, and what he does|Required|
+|image_url|URL to an image of the grave of who the character is based on|Optional|
 
 ## Getting set up
 Multiple tools are used for development, the basics being Git and Yarn (see the quick start guide in our [README](README.md) file for help).
