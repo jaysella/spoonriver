@@ -63,14 +63,6 @@ export default class Layout extends Component {
                   </div>
                 )
               }
-              {/* {
-                console.log(this.props.drawerImageSource.toString()) && 
-                !!this.props.drawerImageSource && this.props.drawerImageSource.toString() && (
-                  <div className={styles.right}>
-                    <img src={this.props.drawerImageSource} alt={this.props.drawerAltName ? this.props.drawerAltName : 'Image'} />
-                  </div>
-                )
-              } */}
             </div>
           )}
           {this.props.hasDrawer !== 'true' && (
