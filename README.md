@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://spoonriver.netlify.app">
-    <img alt="Gatsby" src="https://spoonriver-web.netlify.app/static/media/logo.2f49b862.svg" width="60" />
+    <img alt="Gatsby" src="https://spoonriver-web.netlify.app/static/media/logo.2f49b862.svg" height="80" />
   </a>
 </p>
 <h1 align="center">
