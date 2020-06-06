@@ -2,7 +2,7 @@
 Hello, and thank you for your interest in contributing to our Spoon River Anthology project! Please take a minute to review our Contribution Guidelines, as this will result in getting your issue resolved or pull request merged faster.
 
 ## Specific Information
-All data for this site is located in the [src/data/currentData.json](src/data/currentData.json) file.
+All data for this site is located in the [src/assets/data/currentData.json](src/assets/data/currentData.json) file.
 
 The format for data entries is:
 

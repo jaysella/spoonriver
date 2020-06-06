@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://spoonriver.netlify.app">
-    <img alt="Gatsby" src="https://spoonriver-web.netlify.app/static/media/logo.2f49b862.svg" height="80" />
+    <img alt="Gatsby" src="src/assets/images/logo.svg" height="80" />
   </a>
 </p>
 <h1 align="center">
@@ -13,7 +13,15 @@ For the *Spoon River Anthology: Web of Interconnectivity* site, see the [reposit
 
 Original source code by <a href="https://jaysella.dev" target="_blank">Jay Sella</a>.
 
-Original data + information created + curated by Jay Sella, Oscar Lloyd, and Nick Casertano.
+Original data + information created + curated by Nick Casertano, Oscar Lloyd, and Jay Sella.
+
+---
+
+## 💡 How to Contribute
+
+For information on how to contribute to this project, see our [Contributing Guidelines](CONTRIBUTING.md)
+
+----
 
 ## 🚀 Quick start
 
