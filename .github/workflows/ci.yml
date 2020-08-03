@@ -21,5 +21,6 @@ jobs:
       - name: Prettify code
         uses: creyD/prettier_action@v2.2
         with:
-          # This part is also where you can pass other options, for example:
+          # This part is also where you can pass other options:
           prettier_options: --write **/*.{js,jsx,json,md}
+          commit_message: "chore: prettify"
