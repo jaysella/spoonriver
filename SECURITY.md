@@ -4,9 +4,9 @@
 
 The only version of this site that is supported is the current, live site living on the `master` branch.
 
-| Branch | Supported          |
-| ------- | ------------------ |
-| **master**@latest   | :white_check_mark: |
+| Branch            | Supported          |
+| ----------------- | ------------------ |
+| **master**@latest | :white_check_mark: |
 
 ## Reporting a Vulnerability
 

@@ -32,10 +32,10 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `json_data`,
-        path: `${__dirname}/src/assets/data/`
+        path: `${__dirname}/src/assets/data/`,
       },
     },
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

@@ -7,9 +7,9 @@
   Spoon River Anthology
 </h1>
 
-This repository houses the source code and data for the *Spoon River Anthology* project. This site provides a graphical interface to view and analyze the anthology's 200+ characters and stories. It can be viewed live [here](https://spoonriver.netlify.app).
+This repository houses the source code and data for the _Spoon River Anthology_ project. This site provides a graphical interface to view and analyze the anthology's 200+ characters and stories. It can be viewed live [here](https://spoonriver.netlify.app).
 
-For the *Spoon River Anthology: Web of Interconnectivity* site, see the [repository](https://github.com/j-651/spoonriver-web) or the [live site](https://spoonriver-web.netlify.app).
+For the _Spoon River Anthology: Web of Interconnectivity_ site, see the [repository](https://github.com/j-651/spoonriver-web) or the [live site](https://spoonriver-web.netlify.app).
 
 Original source code by <a href="https://jaysella.dev" target="_blank">Jay Sella</a>.
 
@@ -21,44 +21,44 @@ Original data + information created + curated by Nick Casertano, Oscar Lloyd, an
 
 For information on how to contribute to this project, see our [Contributing Guidelines](CONTRIBUTING.md)
 
-----
+---
 
 ## 🚀 Quick start
 
 1. **Prerequisites**
 
-    To clone this repository to your computer and successfully complete this quick start, you will need to have the following installed locally:
+   To clone this repository to your computer and successfully complete this quick start, you will need to have the following installed locally:
 
-    - [Git](https://git-scm.com/downloads)
-    - [Yarn](https://yarnpkg.com/getting-started/install)
+   - [Git](https://git-scm.com/downloads)
+   - [Yarn](https://yarnpkg.com/getting-started/install)
 
-    *Installation directions are beyond the scope of this document.  Instead, search [Google](http://google.com).  Installing these two packages has been written about ad-nauseum.*
+   _Installation directions are beyond the scope of this document. Instead, search [Google](http://google.com). Installing these two packages has been written about ad-nauseum._
 
-1.  **Clone this site.**
+1. **Clone this site.**
 
-    From a terminal (or GitBash for Windows users), run the following command:
+   From a terminal (or GitBash for Windows users), run the following command:
 
-    ```shell
-    git clone https://github.com/j-651/spoonriver.git
-    ```
+   ```shell
+   git clone https://github.com/j-651/spoonriver.git
+   ```
 
-1.  **Start developing.**
+1. **Start developing.**
 
-    Navigate into the repository's root directory and start it up.
+   Navigate into the repository's root directory and start it up.
 
-    ```shell
-    cd spoonriver/
-    yarn install
-    gatsby develop
-    ```
+   ```shell
+   cd spoonriver/
+   yarn install
+   gatsby develop
+   ```
 
-1.  **Open the source code and start editing!**
+1. **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
+   Your site is now running at `http://localhost:8000`!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+   _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `spoonriver` directory in your code editor of choice and edit any file of your choosing. Save your changes and the browser will update in real time!
+   Open the `spoonriver` directory in your code editor of choice and edit any file of your choosing. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
@@ -99,11 +99,11 @@ A quick look at the top-level files and directories you'll see in this project.
 
 1.  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-1. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+1.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-1. **`README.md`**: A text file containing useful reference information about your project.
+1.  **`README.md`**: A text file containing useful reference information about your project.
 
-1. **`yarn.lock`** (See `package.json` above, first). This is an automatically generated file based on the exact versions of your yarn dependencies that were installed for this project. **(You won’t change this file directly).**
+1.  **`yarn.lock`** (See `package.json` above, first). This is an automatically generated file based on the exact versions of your yarn dependencies that were installed for this project. **(You won’t change this file directly).**
 
 ## 🎓 Learning Gatsby
 
