@@ -32,9 +32,9 @@ export default class Layout extends Component {
                   <p><b>&copy; {new Date().getFullYear()} Jay Sella, Oscar Lloyd, and Nick Casertano.</b></p>
                   <hr />
                   <p>All Rights Reserved.</p>
-                  <p>Made with punctiliousness in the Washington, D.C. area.</p>
+                  <p>Made in Washington, D.C.</p>
                   <p>Website built by <a href="//jaysella.dev" target="_blank" rel="noopener noreferrer">Jay Sella</a>.</p>
-                  <p>Source code + data is open-source. <a href="//github.com/j-651/spoonriver" target="_blank" rel="noopener noreferrer">View our GitHub repository</a>.</p>
+                  <p>Source code + data are open-source. <a href="//github.com/j-651/spoonriver" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p>
                 </div>
               </footer>
             </div>

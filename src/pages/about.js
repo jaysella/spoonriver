@@ -6,8 +6,6 @@ import SEO from "../components/seo"
 
 import styles from "./index.module.sass"
 
-let title = "TEST"
-
 const SecondPage = () => (
   <Layout hasDrawer="false">
     <SEO title="About the Project" />
@@ -24,7 +22,7 @@ const SecondPage = () => (
         </div>
       </Link>
     </div>
-    <div className={['slide', styles.slide, styles.content].join(' ')}>
+    {/* <div className={['slide', styles.slide, styles.content].join(' ')}>
       <div className={styles.inner}>
         <h2>
           What is this project?
@@ -55,7 +53,7 @@ const SecondPage = () => (
         </h2>
         <p><b>Yes!</b> The source code + data for this site are available on <a href="//github.com/j-651/spoonriver" target="_blank" rel="noopener noreferrer">GitHub</a>. To contribute, open an issue or PR.</p>
       </div>
-    </div>
+    </div> */}
 
 
   </Layout>
