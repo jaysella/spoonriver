@@ -1,9 +1,21 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "spoonriver",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Home for Spoon River main data with character analysis",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "contributors": [
+    {
+      "name": "Jay Sella",
+      "email": "jay@jaysella.dev",
+      "url": "https://jaysella.com"
+    },
+    {
+      "name": "Oscar Lloyd"
+    },
+    {
+      "name": "Nick Casertano"
+    }
+  ],
   "dependencies": {
     "gatsby": "^2.19.28",
     "gatsby-image": "^2.2.42",
@@ -27,7 +39,7 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "See license in LICENSE",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -38,9 +50,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/j-651/spoonriver"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/j-651/spoonriver/issues"
   }
 }
