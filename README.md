@@ -19,7 +19,7 @@ Original data + information created + curated by Nick Casertano, Oscar Lloyd, an
 
 ## 💡 How to Contribute
 
-For information on how to contribute to this project, see our [Contributing Guidelines](CONTRIBUTING.md)
+For information on how to contribute to this project, see our [Contribution Guidelines](CONTRIBUTING.md)
 
 ---
 
