@@ -76,8 +76,12 @@ export default class Layout extends Component {
               <div className={styles.left}>
                 <h2>
                   {this.props.drawerTitle}{" "}
-                  {this.props.drawerAltName ? (
-                    <small>based on {this.props.drawerAltName}</small>
+                  {this.props.drawerAltName &&
+                  this.props.drawerAltName.toString().length > 0 ? (
+                    <small>
+                      based on {this.props.drawerAltName}
+                      {console.log(this.props)}
+                    </small>
                   ) : (
                     ""
                   )}
