@@ -10,14 +10,19 @@ const SecondPage = () => (
   <Layout hasDrawer="false">
     <SEO title="About the Project" />
 
-    <div className={['slide slide--navigation', styles.slide, styles.entry, styles.has_background].join(' ')}>
+    <div
+      className={[
+        "slide slide--navigation",
+        styles.slide,
+        styles.entry,
+        styles.has_background,
+      ].join(" ")}
+    >
       <Link to="/">
         <div className={styles.inner}>
           <h2>
             Home
-            <span>
-              &rarr;
-            </span>
+            <span>&rarr;</span>
           </h2>
         </div>
       </Link>
@@ -54,8 +59,6 @@ const SecondPage = () => (
         <p><b>Yes!</b> The source code + data for this site are available on <a href="//github.com/j-651/spoonriver" target="_blank" rel="noopener noreferrer">GitHub</a>. To contribute, open an issue or PR.</p>
       </div>
     </div> */}
-
-
   </Layout>
 )
 

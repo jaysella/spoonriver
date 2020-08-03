@@ -7,17 +7,16 @@ import SEO from "../components/seo"
 import styles from "./index.module.sass"
 
 export default class IndexPage extends Component {
-
   state = {
-    query: '',
-    name: '',
-    altName: '',
-    description: '',
-    imageSource: '',
-    relations: ''
+    query: "",
+    name: "",
+    altName: "",
+    description: "",
+    imageSource: "",
+    relations: "",
   }
-  
-  queryCallbackFunction = (childData) => {
+
+  queryCallbackFunction = childData => {
     this.setState({ query: childData })
   }
 
@@ -27,12 +26,20 @@ export default class IndexPage extends Component {
       altName: [alt_name],
       description: [description],
       imageSource: [image_url],
-      relations: [relations]
-  })
-  
+      relations: [relations],
+    })
+
   render() {
-    return(
-      <Layout parentQueryCallback={this.queryCallbackFunction} hasDrawer={((this.state.name && this.state.description) ? 'true' : 'false')} drawerTitle={this.state.name} drawerAltName={this.state.altName} drawerBody={this.state.description} drawerImageSource={this.state.imageSource} drawerRelations={this.state.relations} >
+    return (
+      <Layout
+        parentQueryCallback={this.queryCallbackFunction}
+        hasDrawer={this.state.name && this.state.description ? "true" : "false"}
+        drawerTitle={this.state.name}
+        drawerAltName={this.state.altName}
+        drawerBody={this.state.description}
+        drawerImageSource={this.state.imageSource}
+        drawerRelations={this.state.relations}
+      >
         <SEO title="Home" />
         <StaticQuery
           query={graphql`
@@ -51,22 +58,41 @@ export default class IndexPage extends Component {
               }
             }
           `}
-          render={data => (
+          render={data =>
             data.allCurrentDataJson &&
-              data.allCurrentDataJson.edges.map(
-                ({ node }, index) =>
-                  (node.name.toLowerCase().includes(this.state.query.toLowerCase()) || node.alt_name.toLowerCase().includes(this.state.query.toLowerCase()) || node.description.toLowerCase().includes(this.state.query.toLowerCase())) && (
-                    <div key={index} className={['slide', styles.slide, styles.entry].join(' ')} onClick={this.handleClick.bind(null, node.name, node.alt_name, node.description, node.image_url, node.relations)}>
-                      <div className={styles.inner}>
-                        <h2>
-                          {node.name}
-                          <span>&rarr;</span>
-                        </h2>
-                      </div>
+            data.allCurrentDataJson.edges.map(
+              ({ node }, index) =>
+                (node.name
+                  .toLowerCase()
+                  .includes(this.state.query.toLowerCase()) ||
+                  node.alt_name
+                    .toLowerCase()
+                    .includes(this.state.query.toLowerCase()) ||
+                  node.description
+                    .toLowerCase()
+                    .includes(this.state.query.toLowerCase())) && (
+                  <div
+                    key={index}
+                    className={["slide", styles.slide, styles.entry].join(" ")}
+                    onClick={this.handleClick.bind(
+                      null,
+                      node.name,
+                      node.alt_name,
+                      node.description,
+                      node.image_url,
+                      node.relations
+                    )}
+                  >
+                    <div className={styles.inner}>
+                      <h2>
+                        {node.name}
+                        <span>&rarr;</span>
+                      </h2>
                     </div>
-                  )
-              )
-          )}
+                  </div>
+                )
+            )
+          }
         />
       </Layout>
     )

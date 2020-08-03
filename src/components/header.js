@@ -3,17 +3,15 @@ import { StaticQuery, graphql, Link } from "gatsby"
 
 import styles from "./layout.module.sass"
 
-
 export default class Header extends Component {
-
   constructor(props) {
     super(props)
-    this.state = { query: '' }
-    this.handleQuery = this.handleQuery.bind(this);
+    this.state = { query: "" }
+    this.handleQuery = this.handleQuery.bind(this)
   }
 
   handleQuery(event) {
-    this.setState({ query: event.target.value });
+    this.setState({ query: event.target.value })
     this.props.parentCallback(event.target.value)
   }
 
@@ -21,9 +19,7 @@ export default class Header extends Component {
     return (
       <header className={styles.header}>
         <h4>
-          <Link to="/about">
-            About
-          </Link>
+          <Link to="/about">About</Link>
           &nbsp;
           <a href="//spoonriver-web.netlify.com" rel="nofollow noreferrer">
             Interactive Web
@@ -41,13 +37,16 @@ export default class Header extends Component {
           `}
           render={data => (
             <h1>
-              <Link to="/">
-                {data.site.siteMetadata.title}
-              </Link>
+              <Link to="/">{data.site.siteMetadata.title}</Link>
             </h1>
           )}
         />
-        <input type="text" placeholder="Search" name="query" onChange={this.handleQuery} />
+        <input
+          type="text"
+          placeholder="Search"
+          name="query"
+          onChange={this.handleQuery}
+        />
       </header>
     )
   }
