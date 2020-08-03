@@ -16,7 +16,7 @@ export default class IndexPage extends Component {
     relations: "",
   }
 
-  queryCallbackFunction = childData => {
+  queryCallbackFunction = (childData) => {
     this.setState({ query: childData })
   }
 
@@ -58,7 +58,7 @@ export default class IndexPage extends Component {
               }
             }
           `}
-          render={data =>
+          render={(data) =>
             data.allCurrentDataJson &&
             data.allCurrentDataJson.edges.map(
               ({ node }, index) =>

@@ -35,7 +35,7 @@ export default class Header extends Component {
               }
             }
           `}
-          render={data => (
+          render={(data) => (
             <h1>
               <Link to="/">{data.site.siteMetadata.title}</Link>
             </h1>

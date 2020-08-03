@@ -9,7 +9,7 @@ export default class Layout extends Component {
     this.state = { query: "" }
   }
 
-  queryCallbackFunction = childData => {
+  queryCallbackFunction = (childData) => {
     console.log(childData)
     this.setState({ query: childData })
     this.props.parentQueryCallback(childData)
