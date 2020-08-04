@@ -34,6 +34,9 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "husky": "^4.2.5",
     "prettier": "^2.0.5"
   },
   "keywords": [
