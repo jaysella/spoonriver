@@ -36,7 +36,13 @@
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
     "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
   },
   "keywords": [
@@ -46,10 +52,22 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "lint": "eslint './src/**/*.{js,jsx}'",
+    "lint:fix": "eslint './src/**/*.{js,jsx}' --fix",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "eslint --cache --fix",
+    "*.{js,jsx,json,md}": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "repository": {
     "type": "git",
