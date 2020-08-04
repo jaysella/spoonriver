@@ -1,0 +1,23 @@
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
+
+# Add 'static' label to any change within the 'src/assets/images' folder
+static:
+  - src/assets/images
+
+# Add 'style' label to any change within the 'src/assets/sass' folder
+# Add 'style' label to any change within a style file in the 'src' folder
+style:
+  - src/assets/sass/*
+  - src/**/*.module.sass
+  - src/**/*.sass
+  - src/**/*.css
+
+# Add 'data' label to any change within the 'src/assets/data' folder
+data:
+  - src/assets/data/*
+
+# Add 'source' label to any change to src files within 'src' EXCEPT for the 'assets' sub-folder
+source:
+  - any: ["src/**/*", "!src/assets/*"]
