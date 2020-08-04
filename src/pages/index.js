@@ -33,11 +33,15 @@ export default class IndexPage extends Component {
     return (
       <Layout
         parentQueryCallback={this.queryCallbackFunction}
-        hasDrawer={this.state.name && this.state.description ? "true" : "false"}
-        drawerTitle={this.state.name}
-        drawerAltName={this.state.altName}
-        drawerBody={this.state.description}
-        drawerImageSource={this.state.imageSource}
+        hasDrawer={
+          this.state.name.toString() && this.state.description.toString()
+            ? "true"
+            : "false"
+        }
+        drawerTitle={this.state.name.toString()}
+        drawerAltName={this.state.altName.toString()}
+        drawerBody={this.state.description.toString()}
+        drawerImageSource={this.state.imageSource.toString()}
         drawerRelations={this.state.relations}
       >
         <SEO title="Home" />

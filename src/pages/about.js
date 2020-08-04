@@ -32,7 +32,7 @@ const SecondPage = () => (
         <h2>What is this project?</h2>
         <p>
           This is an English Literature project, tying together the overlapping
-          elements between the narratives of Edgar Lee Masters'{" "}
+          elements between the narratives of Edgar Lee Masters&apos;{" "}
           <em>Spoon River Anthology</em>.
         </p>
       </div>

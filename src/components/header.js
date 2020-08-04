@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
+import PropTypes from "prop-types"
 
 import styles from "./layout.module.sass"
 
@@ -50,4 +51,8 @@ export default class Header extends Component {
       </header>
     )
   }
+}
+
+Header.propTypes = {
+  parentCallback: PropTypes.any,
 }

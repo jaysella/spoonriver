@@ -30,8 +30,8 @@ const NotFoundPage = () => (
       <div className={styles.inner}>
         <h2>Not Found...</h2>
         <p>
-          You've just experienced an Error 404. The page or resource you are
-          looking for cannot be found.
+          You&apos;ve just experienced an Error 404. The page or resource you
+          are looking for cannot be found.
         </p>
       </div>
     </div>
