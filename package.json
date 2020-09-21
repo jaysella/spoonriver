@@ -34,8 +34,8 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.1",
-    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-loader": "^4.0.2",
