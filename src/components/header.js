@@ -22,7 +22,7 @@ export default class Header extends Component {
         <h4>
           <Link to="/about">About</Link>
           &nbsp;
-          <a href="//spoonriver-web.netlify.com" rel="nofollow noreferrer">
+          <a href="https://spoonriver-web.netlify.app" rel="nofollow noreferrer">
             Interactive Web
           </a>
         </h4>

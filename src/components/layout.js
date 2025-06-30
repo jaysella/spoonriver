@@ -30,7 +30,7 @@ export default class Layout extends Component {
                   <hr />
                   <p>
                     <b>
-                      &copy; {new Date().getFullYear()} Jay Sella, Oscar Lloyd,
+                      &copy; 2020 Jay Sella, Oscar Lloyd,
                       and Nick Casertano.
                     </b>
                   </p>
